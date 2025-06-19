@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo de etiquetas HTML</title>
+</head>
+<body>
+    <H1>Uso de etiquetas multimedia y enlaces en HTML</H1>
+    <!--Imagenen -->
+    <h2>Etiqueta &lt;img&gt;</h2>
+    <p>Se usa para insertar imagenes. Es una etiqueta vacia, no tiene cierre.</p>
+    ><img src="http://via.planceholder.com/300x200" alt="Imagen de ejemplos" width="300"
+    height="200">
+    <!--
+    Atributos:
+    - src: ruta de la imagen (pueden ser local o URL externa)
+    - alt: texto alternativo (importante para accesibilidad)
+    - width / height: opcional, define dimenciones
+    -->
+
+    <!-- Video -->
+     <h2>Etiqueta &lt;video&lt;</h2>
+     <p>Permite insertar videos. Se recomienda usar varios formatos para compatibilidad. 
+       </p> 
+     <Video width="320" height="240" controls>
+         <source src="video-ejemplo.mp4" type="video/mp4">
+         <source src="video-ejemplo.ogg" type="video/ogg">
+         Tu navegador no soporta la reproduccion de video. 
+        </Video>
+        <!--
+        Atrutos:
+        - controls: muestra los controles de reproduccion
+        - autoplay, loop, muted, poster: otros atributos opcionales
+        - source: especifica los archivos de video y sus formatos
+        -->
+        <!-- video de YouTube -->
+
+        <h2>Video de YouTube</h2>
+        <p>Para insertar un feed de YouTube, usa la etiqueta &lt;iframe&gt;.</p>
+
+
+        <!--feed de instagram-->
+        <h2>Feed de Instagram</h2>
+        <p>Para insertar un feed de Instagram, usa la etiqueta &lt;blockquote&gt;.</p>
+
+
+        <!-- Hiperviculo -->
+         <h2>Etiqueta &lt;a&gt;</h2>
+         <p>Sirve para crear enlaces a otras paginas, documentos o ubicacion.</p>
+         <a href="http://www.wikipedia.org" target="_blank">Ir a wikipedia</a>
+         <!--
+         Atributos:
+         - href: destino del enlace
+         - target="_blank": abre el enlace en una nueva pagina
+         -->
+               
+</body>
+</html>
